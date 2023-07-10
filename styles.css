@@ -1,0 +1,598 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  color: white;
+  margin: 0.5%;
+  padding-left: 40px;
+  padding-top: 1%;
+  background-color: #2c3e50;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100vh;
+  width: 27vw;
+  transition: transform 0.3s ease-in;
+  position: absolute;
+}
+.sidebar nav {
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*  -------------------------- MAIN ----------------------------   */
+.main1 {
+  background-color: #eaeded;
+  width: 100vw;
+  margin: 0.5%;
+  padding-top: 1%;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.main2 {
+  background-color: #eaeded;
+  width: 100vw;
+  margin: 0.5%;
+  padding-top: 1%;
+  padding-left: 20px;
+  height: 138vh;
+}
+
+.main3 {
+  background-color: #eaeded;
+  width: 100vw;
+  margin: 0.5%;
+  padding-top: 1%;
+  padding-left: 20px;
+  height: 170vh;
+}
+.main4 {
+  background-color: #eaeded;
+  width: 100vw;
+  margin: 0.5%;
+  padding-top: 1%;
+  padding-left: 20px;
+  height: 150vh;
+}
+
+.head {
+  background-color: #52585e;
+  height: 18vh;
+  width: 99vw;
+  margin: 10px;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding-top: 4%;
+}
+
+.infoContainer {
+  align-items: center;
+  margin-top: 2%;
+  background-color: #cacece;
+  height: 50vh;
+  width: 97vw;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.infoContainer2 {
+  margin-top: 2%;
+  background-color: #cacece;
+  height: 37vh;
+  width: 93vw;
+  margin-top: 2%;
+  margin-left: 1%;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.devPic img {
+  height: 47vh;
+  padding: 10px 10px;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.hello {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 45px;
+  font-weight: bold;
+}
+.about {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: #2c3e50;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  color: #2c3e50;
+  background-color: white;
+}
+
+.moreabout {
+  padding-bottom: 2%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.contactform {
+  padding: 0 34px;
+  padding-top: 5%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.contactform h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 4%;
+}
+
+.contactform form div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+#emailHelp {
+  font-size: 13px;
+  color: #2c3e50;
+  margin: 0 5px;
+  padding: 5px 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 25px;
+  margin: 3px 0;
+}
+
+.contacts {
+  text-align: center;
+  margin: 1%;
+  padding: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  background-color: #cacece;
+  height: 25vh;
+}
+.contacts h4 {
+  text-align: center;
+  padding: 10px;
+}
+.contacts p a {
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 3%;
+}
+.contacts p a:hover {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.blogContainer h1 {
+  margin: 1%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.blogItem {
+  margin-top: 2%;
+  margin-left: 1%;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #cacece;
+  width: 92vw;
+  height: 15vh;
+  padding: 2% 2%;
+}
+
+.blogItem h2 {
+  padding-bottom: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.blogItem p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.blogs {
+  margin-top: 2%;
+  margin-left: 1%;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #cacece;
+  width: 92vw;
+  height: 10vh;
+  padding: 2% 2%;
+}
+.blogs h2 {
+  padding-bottom: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.blogs p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+.bloging p {
+  background-color: #52585e;
+  padding: 2%;
+  color: white;
+  width: 92vw;
+  height: 2vw;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.skillContainer {
+  background-color: #eaeded;
+  width: 100vw;
+  margin: 0.5%;
+  padding-top: 1%;
+  padding-left: 20px;
+}
+
+.skillContainer h1 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.skillItem {
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  background-color: #cacece;
+  align-items: center;
+  font-size: 20px;
+  padding: 2%;
+  width: 93vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.skill {
+  width: 300px;
+  height: 8px;
+  background-color: #52585e;
+  border: 2px solid black;
+}
+
+.ninty {
+  display: flex;
+  height: 8px;
+  background-color: white;
+  width: 270px;
+}
+.eighty {
+  display: flex;
+  height: 8px;
+  background-color: white;
+  width: 250px;
+}
+.seventy {
+  display: flex;
+  height: 8px;
+  background-color: white;
+  width: 235px;
+}
+.sixtyfive {
+  display: flex;
+  height: 8px;
+  background-color: white;
+  width: 220px;
+}
+.fifty {
+  display: flex;
+  height: 8px;
+  background-color: white;
+  width: 170px;
+}
+
+.intro {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #cacece;
+  align-items: center;
+  font-size: 20px;
+  padding: 1%;
+  width: 95vw;
+  text-align: center;
+}
+
+.descript {
+  text-align: center;
+  margin: 1%;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 240px;
+  left: 20px;
+}
+
+.ham {
+  margin-top: -2px;
+  margin-left: -8px;
+}
+.cross {
+  margin-left: 250px;
+}
+
+.sidebarGo {
+  transform: translate(-500px, 0px);
+  position: absolute;
+}
+
+@media (max-width: 1276px) {
+  * {
+  }
+
+  .devPic {
+    display: none;
+  }
+
+  .head {
+    height: auto;
+  }
+  .blogItem {
+    height: 42vh;
+    width: 82vw;
+    padding-top: 3%;
+    text-align: justify;
+  }
+  .main4 {
+    width: 90vw;
+    margin-left: 2.5%;
+    height: 243vh;
+  }
+}
+
+/*  -------------------------- galaxy note 3 android 4.3 ----------------------------   */
+@media (max-width: 360px) {
+  head {
+    height: 29vh;
+    width: 95vw;
+    font-size: 36px;
+  }
+  .main1 {
+    width: 90vw;
+    margin: 2.5%;
+    height: 166vh;
+  }
+  .hamburger {
+    top: 184px;
+    left: 20px;
+  }
+  .infoContainer {
+    width: 81vw;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 72vh;
+    padding: 1% 2%;
+  }
+  .infoContainer2 {
+    width: 80.5vw;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 86vh;
+  }
+  .skill {
+    width: 148px;
+  }
+  .ninty {
+    width: 123px;
+  }
+  .eighty {
+    width: 100px;
+  }
+  .seventy {
+    width: 98px;
+  }
+  .sixtyfive {
+    width: 92px;
+  }
+  .fifty {
+    width: 78px;
+  }
+  .sidebar {
+    width: 78vw;
+  }
+  .blogItem {
+    height: 40vh;
+    width: 82vw;
+    padding-top: 3%;
+    text-align: justify;
+  }
+  .blogs {
+    height: 26vh;
+    width: 82vw;
+  }
+  .main3 {
+    width: 90vw;
+    margin-left: 2.5%;
+    height: 224vh;
+  }
+  .bloging p {
+    height: 11vh;
+    width: 82vw;
+  }
+  .contacts {
+    height: 45vh;
+    width: 82vw;
+  }
+  .main2 {
+    margin-left: 2.5%;
+    width: 90vw;
+    height: 157vh;
+  }
+  .main4 {
+    width: 90vw;
+    margin-left: 2.5%;
+    height: 234vh;
+  }
+}
+
+/*  -------------------------- galaxy note 20 android 11 ----------------------------   */
+@media (max-width: 412px) {
+  .head {
+    height: 16vh;
+    width: 95vw;
+    font-size: 36px;
+  }
+  .main1 {
+    width: 95vw;
+    margin: 1%;
+    height: 105vh;
+  }
+  .infoContainer {
+    width: 90vw;
+    margin-top: 2%;
+    margin-left: 0%;
+  }
+  .infoContainer2 {
+    width: 86.5vw;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 50vh;
+  }
+  .hamburger {
+    top: 150px;
+    left: 20px;
+  }
+  .hello,
+  .name {
+    font-size: 30px;
+  }
+  .about {
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+  .sidebar {
+    width: 70vw;
+  }
+  .skillContainer {
+    width: 90vw;
+    margin-left: 2.5%;
+  }
+  .intro {
+    width: 84vw;
+  }
+  .skillItem {
+    width: 82vw;
+    padding-top: 25px;
+  }
+  .skill {
+    width: 250px;
+  }
+  .ninty {
+    width: 160px;
+  }
+  .eighty {
+    width: 145px;
+  }
+  .seventy {
+    width: 132px;
+  }
+  .sixtyfive {
+    width: 127px;
+  }
+  .fifty {
+    width: 100px;
+  }
+  .main4 {
+    width: 90vw;
+    margin-left: 2.5%;
+    height: 160vh;
+  }
+  .blogItem {
+    height: 27vh;
+    width: 82vw;
+    padding-top: 3%;
+    text-align: justify;
+    vertical-align: center;
+  }
+  .blogItem h2,
+  p {
+    padding: 2%;
+    text-align: justify;
+  }
+  .main3 {
+    width: 90vw;
+    margin-left: 2.5%;
+    height: 163vh;
+  }
+  .blogs {
+    height: 18vh;
+    width: 82vw;
+  }
+  .bloging p {
+    height: 8vh;
+    width: 82vw;
+  }
+  .main2 {
+    margin-left: 2.5%;
+    width: 90vw;
+    height: 110vh;
+  }
+  .contacts {
+    height: 31vh;
+    width: 82vw;
+  }
+}
